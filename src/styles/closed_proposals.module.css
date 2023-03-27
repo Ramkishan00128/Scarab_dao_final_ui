@@ -168,6 +168,14 @@
 
   background-size: 100% 100%;
 }
+.stack_page_panel_data {
+  margin-top: 20px;
+  height: 65%;
+  overflow-y: scroll;
+}
+.stack_page_panel_data::-webkit-scrollbar {
+  display: none;
+}
 
 .stack_page_panel_heading {
   margin-top: 25px;

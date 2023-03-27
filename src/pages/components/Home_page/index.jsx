@@ -35,6 +35,12 @@ const Home_page = () => {
     "FIGHT AGAINST CENTRALIZATION",
     "FIGHT AGAINST CENTRALIZATION",
   ];
+  const datatext_desktop = [
+    "INVESTING IN REVOLUTION",
+    "FIGHT AGAINST CENTRALIZATION",
+    "Full DISTRIBUTION",
+  ];
+
   const nextImage = () => {
     if (slideIndex === 0 || slideIndex === 1) {
       setSlideIndex(slideIndex + 1);
@@ -82,7 +88,9 @@ const Home_page = () => {
             </button>
           </div>
         </div>
-        <p className={style.desktop_left_heading}>INVESTING IN REVOLUTION</p>
+        <p className={style.desktop_left_heading}>
+          {datatext_desktop[slideIndex]}
+        </p>
         {/* header_End */}
         {/* Desktop_mid_scarab_Start */}
         <div className={style.green_bg_container}>

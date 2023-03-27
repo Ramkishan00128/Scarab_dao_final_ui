@@ -13,6 +13,7 @@ import { useState } from "react";
 const Index = () => {
   const [hide, setHide] = useState(false);
   const handleToggle = () => {};
+  const arr = [1, 2, 3, 4, 5];
   return (
     <>
       <div className={style.Scarab_pending_container}>
@@ -50,9 +51,8 @@ const Index = () => {
           </div>
           {/* yellow_bg_end */}
           <div className={style.submit_panel}>
+            <p className={style.stack_page_panel_heading}>Closed Proposals</p>
             <div className={style.stack_page_panel_data}>
-              <p className={style.stack_page_panel_heading}>Closed Proposals</p>
-              {/* <div className={style.Align_detailPage_detail}> */}
               <div className={style.detailpage_gap}>
                 <div className={style.proposal_heading}>
                   <p className={style.details_page_underLine}>Proposal 155:</p>
