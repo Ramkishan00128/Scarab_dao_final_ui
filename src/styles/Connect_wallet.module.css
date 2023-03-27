@@ -1,14 +1,54 @@
 .Connect_wallet {
-  background-image: url("/laptop_theme/connect_wallet_panel.png");
+  background-image: url("/laptop_theme/connect_wallet_panel_.png");
   height: 400px;
   width: 500px;
   background-size: 100% 100%;
   padding: 10px;
+  font-family: "Skranji";
+  position: relative;
 }
 .align_data {
   height: 80%;
-  margin-top: 10%;
+  margin-top: 5%;
   width: 100%;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  color: #845704;
+}
+
+.wallet_heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wallet_heading p {
+  /* margin-right: 40px; */
+  font-size: 24px;
+  color: #d27812;
+  margin-left: 5px;
+}
+.close_button {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  right: 30px;
+}
+.Top_wallet {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+.Aligh_Top_wallet {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.bottom_wallet {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: 0 auto;
 }

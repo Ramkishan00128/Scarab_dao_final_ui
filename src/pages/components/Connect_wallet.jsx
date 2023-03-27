@@ -9,23 +9,23 @@ const Connect_wallet = () => {
   return (
     <div className={style.Connect_wallet}>
       <div className={style.align_data}>
-        <div>
+        <div className={style.wallet_heading}>
           <p>CONNECT A WALLET</p>
-          <Image src={close_btn} alt='close' />
+          <Image className={style.close_button} src={close_btn} alt='close' />
         </div>
-        <div>
-          <div>
+        <div className={style.Top_wallet}>
+          <div className={style.Aligh_Top_wallet}>
             <Image src={Wallet} alt='close' />
             <p>Wallet Connect</p>
           </div>
-          <div>
+          <div className={style.Aligh_Top_wallet}>
             <Image src={metamask_wallet} alt='meta_mask' />
             <p>Metamask</p>
           </div>
         </div>
-        <div>
-          <div>
-            <Image src={Twt} />
+        <div className={style.bottom_wallet}>
+          <div className={style.Aligh_Top_wallet}>
+            <Image src={TWT} alt='twt' />
             <p>Metamask</p>
           </div>
         </div>

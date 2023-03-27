@@ -9,6 +9,7 @@ import book from "../../../../public/laptop_theme/book 1.png";
 import discord from "../../../../public/laptop_theme/Discord 1.png";
 import Link from "next/link";
 import burger from "../../../../public/laptop_theme/Responsive_theme/hemburger_btn.png";
+import Connect_wallet from "../Connect_wallet";
 
 const Index = () => {
   const [hide, setHide] = useState(false);
@@ -137,6 +138,9 @@ const Index = () => {
         </div>
         {/* mobile_responsive_end */}
       </div>
+      {/* <div className={style.align_connect_wallet}>
+        <Connect_wallet />
+      </div> */}
     </>
   );
 };
