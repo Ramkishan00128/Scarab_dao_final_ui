@@ -11,7 +11,7 @@ import discord from "../../../../public/laptop_theme/Discord 1.png";
 import burger from "../../../../public/laptop_theme/Responsive_theme/hemburger_btn.png";
 import { useState } from "react";
 
-const index = () => {
+const Index = () => {
   const [hide, setHide] = useState(false);
   const handleToggle = () => {};
   return (
@@ -221,4 +221,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

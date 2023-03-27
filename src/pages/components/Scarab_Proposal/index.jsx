@@ -12,7 +12,7 @@ import Link from "next/link";
 import burger from "../../../../public/laptop_theme/Responsive_theme/hemburger_btn.png";
 import back_arrow from "../../../../public/laptop_theme/back icon_desktop.png";
 import Image from "next/image";
-const index = () => {
+const Index = () => {
   const [hide, setHide] = useState(false);
   const handleToggle = () => {};
   return (
@@ -147,4 +147,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
