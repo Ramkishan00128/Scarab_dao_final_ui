@@ -380,9 +380,10 @@
   }
 
   .Home_Page_container {
-    background-image: url("/laptop_theme/Responsive_theme/Bg_home_page.png");
+    background-image: url("/laptop_theme/BG_front_tabview.png");
     /* min-width: 360px;
     height: 75%; */
+
     background-size: 100% 100%;
     position: relative;
   }
@@ -399,12 +400,13 @@
     height: 80%;
   }
   .scarab_with_light_1 {
+    background-image: url("/public/laptop_theme/scarab 1_300px.png");
     position: absolute;
 
     top: 5%;
     left: 1%;
     width: 100%;
-    height: 50%;
+    height: 60%;
   }
 
   .mobile_logo {
@@ -506,8 +508,15 @@
 
     background-size: 100% 100%;
   }
+  .size_panel_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
   .panel_text {
+    width: 100%;
     position: absolute;
     top: 30px;
 
@@ -568,7 +577,7 @@
     margin-left: 20px;
   }
 }
-@media screen and ((min-width: 600px)and (max-width:852px)) {
+@media screen and ((min-width: 500px)and (max-width:852px)) {
   .Home_Page_container {
     background-image: url("/laptop_theme/Responsive_theme/bg_tablet_view-1.png");
 
@@ -583,13 +592,21 @@
 
     top: 3%;
     left: 3%;
-    width: 98%;
+    width: 65%;
     height: 60%;
+    transform: translateX(26%);
+    margin: auto;
   }
+  /* .size_panel_container {
+    width: 40%;
+    margin: auto;
+  } */
+
   .panel_container {
     top: 50%;
     left: 10%;
 
-    width: 80%;
+    width: 60%;
+    transform: translateX(20%);
   }
 }
