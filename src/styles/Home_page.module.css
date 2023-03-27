@@ -1,0 +1,594 @@
+.drawer {
+  display: none;
+}
+.arrow {
+  display: none;
+}
+.mobile_logo {
+  display: none;
+}
+.panel_container {
+  display: none;
+}
+
+.Home_Page_container {
+  background-image: url("/laptop_theme/background.png");
+  max-width: 1600px;
+  height: 748px;
+
+  background-size: 100% 100%;
+  padding: 8px 10px;
+  margin: auto;
+  position: relative;
+  font-family: "Skranji";
+}
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+
+  margin: auto;
+}
+.navbar_left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+}
+.navbar_right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+}
+.header_logo {
+  height: 90px;
+  width: 20%;
+}
+._header_btn {
+  max-width: 150px;
+
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  border-radius: 7px;
+  font-family: "Skranji", cursive;
+  border: 0.4px solid #ffffff;
+  -webkit-text-stroke: #ffffff;
+  padding: 2px 10px;
+}
+._header_btn:hover {
+  background-color: #d27812;
+}
+._header_btn p:nth-child(1) {
+  font-size: 10px;
+}
+._header_btn p:nth-child(2) {
+  font-size: 12px;
+}
+
+.navbar_left a {
+  -webkit-text-stroke: 1.5px rgb(43, 9, 9);
+  -webkit-text-fill-color: white;
+  font-weight: bold;
+  font-size: 13px;
+  margin-left: 1rem;
+  align-items: center;
+  text-decoration: none;
+}
+.navbar_right a {
+  -webkit-text-stroke: 1.5px rgb(43, 9, 9);
+  -webkit-text-fill-color: white;
+  font-weight: bold;
+  font-size: 13px;
+  margin-right: 1rem;
+
+  align-items: center;
+  text-decoration: none;
+}
+.navbar_left a:hover {
+  -webkit-text-fill-color: #ff9c2d;
+}
+.navbar_right a:hover {
+  -webkit-text-fill-color: #ff9c2d;
+}
+
+.desktop_left_heading {
+  /* margin-top: 10%; */
+  position: absolute;
+  top: 20%;
+
+  margin-left: 6%;
+  margin-right: 80%;
+  width: 220px;
+
+  font-family: "Skranji", cursive;
+  font-size: 35px;
+
+  color: black;
+  text-shadow: 2px 2px 5px rgba(255, 255, 255, 1);
+}
+
+.green_bg_container {
+  display: flex;
+  justify-content: center;
+  height: 80%;
+  width: 100%;
+}
+.green_bg_align {
+  width: 40%;
+  height: 100%;
+  z-index: -1;
+}
+.green_bg_theme {
+  height: 100%;
+  width: 100%;
+}
+
+.scarab_with_light_1 {
+  position: absolute;
+
+  top: 25%;
+  left: 30%;
+  width: 40%;
+  height: 60%;
+}
+
+.desktop_statue_1 {
+  background-image: url("/laptop_theme/statue1 12.png");
+  height: 370px;
+  width: 150px;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+.desktop_statue_2 {
+  background-image: url("/laptop_theme/statue2 2.png");
+  height: 370px;
+  width: 150px;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+.desktop_HomePage_panel {
+  background-image: url("/laptop_theme/home_panel.png");
+  display: flex;
+  height: 360px;
+  width: 280px;
+  background-size: 100% 100%;
+  flex-direction: column;
+  position: absolute;
+  top: 25%;
+  right: 5px;
+  padding: 20px;
+  z-index: 100;
+}
+.desktop_home_panel_and_button {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.desktop_HomePage_panel p {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 75px;
+  width: 100%;
+  font-size: 13px;
+  margin: auto;
+  color: #845704;
+}
+
+.desktop_btn {
+  background-image: url("/laptop_theme/button.png");
+  display: flex;
+  position: absolute;
+
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 40px;
+  width: 80%;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 200px;
+  cursor: pointer;
+}
+.desktop_btn:hover {
+  background-image: url("/laptop_theme/button_low_theme.png");
+}
+.desktop_footer_right_icon {
+  position: absolute;
+  right: 1%;
+  bottom: 25px;
+}
+.desktop_footer_right_icon a {
+  cursor: pointer;
+  z-index: 100;
+}
+.footer_png {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.desktop_footer_mid {
+  z-index: 0;
+  position: absolute;
+
+  bottom: 15px;
+  width: 90%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.desktop_footer_mid p {
+  color: #e7dbc9;
+  font-size: 14px;
+}
+.footer_circle {
+  display: flex;
+}
+.circle {
+  height: 8px;
+  width: 8px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 100%;
+  margin-left: 10px;
+}
+.circle_fill {
+  height: 8px;
+  width: 8px;
+  background-color: #ffffff;
+
+  border-radius: 100%;
+  margin-left: 10px;
+}
+
+.upArrow {
+  height: 20px;
+  width: 40px;
+}
+
+@media screen and (min-width: 1200px) {
+  .Home_Page_container {
+    padding: 0 70px;
+  }
+
+  .navbar_left {
+    margin-top: 10px;
+  }
+  .navbar_right {
+    margin-top: 10px;
+  }
+  .navbar_left a {
+    font-size: 18px;
+  }
+  .navbar_right a {
+    font-size: 18px;
+  }
+  .header_logo {
+    height: 94px;
+    width: 17%;
+    margin-top: 10px;
+  }
+  ._header_btn {
+    width: 200px;
+
+    padding: 2px 15px;
+  }
+  ._header_btn p:nth-child(1) {
+    font-size: 12px;
+  }
+  ._header_btn p:nth-child(2) {
+    font-size: 15px;
+  }
+  .scarab_with_light_1 {
+    height: 70%;
+    top: 22%;
+  }
+  .desktop_statue_1 {
+    left: 16%;
+  }
+  .desktop_statue_2 {
+    right: 16%;
+  }
+  .desktop_HomePage_panel {
+    right: 12%;
+  }
+
+  .desktop_btn {
+    height: 50px;
+  }
+  .desktop_left_heading {
+    width: 280px;
+
+    font-size: 44px;
+  }
+
+  .desktop_footer_right_icon {
+    position: absolute;
+    right: 6.5%;
+    bottom: 25px;
+  }
+
+  .footer_png {
+    height: 40px;
+    width: 40px;
+  }
+  .desktop_footer_mid {
+    bottom: 15px;
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .desktop_footer_mid p {
+    color: #e7dbc9;
+    font-size: 17px;
+  }
+
+  .circle {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .circle_fill {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .upArrow {
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 852px) {
+  .Navbar {
+    display: none;
+  }
+
+  .desktop_left_heading {
+    display: none;
+  }
+
+  .desktop_statue_1 {
+    display: none;
+  }
+  .desktop_statue_2 {
+    display: none;
+  }
+  .desktop_HomePage_panel {
+    display: none;
+  }
+
+  .upArrow {
+    display: none;
+  }
+
+  .Home_Page_container {
+    background-image: url("/laptop_theme/Responsive_theme/Bg_home_page.png");
+    /* min-width: 360px;
+    height: 75%; */
+    background-size: 100% 100%;
+    position: relative;
+  }
+  .green_bg_container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+
+    height: 88%;
+    width: 93.5%;
+  }
+  .green_bg_align {
+    width: 82%;
+    height: 80%;
+  }
+  .scarab_with_light_1 {
+    position: absolute;
+
+    top: 5%;
+    left: 1%;
+    width: 100%;
+    height: 50%;
+  }
+
+  .mobile_logo {
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .header_logo {
+    height: 55px;
+    width: 120px;
+  }
+  .burger {
+    position: absolute;
+    top: 10%;
+    right: 2%;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+  }
+  .arrow {
+    position: absolute;
+    width: 95%;
+    left: 2%;
+    margin-right: -1px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 40%;
+
+    z-index: 0;
+  }
+  .drawer {
+    position: absolute;
+    background-color: black;
+    height: 250px;
+    width: 100%;
+    margin-left: -10px;
+
+    margin-top: 60px;
+    /* z-index: 100; */
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .drawer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    flex-direction: column;
+    color: #ffffff;
+    margin-top: 17px;
+    cursor: pointer;
+  }
+  .drawer ul li {
+    line-height: 22px;
+  }
+  .drawer ul li:hover {
+    color: #d76b47;
+  }
+  .nav_list li:nth-child(1) {
+    color: #d76b47;
+  }
+
+  .drawer_btn {
+    font-family: "Skranji";
+    border: 1px solid #ffffff;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: transparent;
+
+    width: 300px;
+
+    margin: 10px auto;
+  }
+  .drawer_btn:hover {
+    background-color: #d27812;
+  }
+  .panel_container {
+    position: absolute;
+
+    top: 50%;
+    background-image: url("/laptop_theme/Responsive_theme/home_page_panel.png");
+    background-repeat: no-repeat;
+    height: 190px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+
+    background-size: 100% 100%;
+  }
+
+  .panel_text {
+    position: absolute;
+    top: 30px;
+
+    font-family: "Skranji";
+  }
+  .panel_text h2 {
+    font-family: "Skranji";
+    text-align: center;
+    font-size: 15px;
+  }
+  .panel_text p {
+    font-size: 11px;
+    padding: 0 20px;
+
+    margin: auto;
+    color: #845704;
+  }
+  .button_container {
+    position: relative;
+    height: 35px;
+    width: 250px;
+    margin: auto;
+  }
+  .btn_png {
+    background-image: url("/laptop_theme/button.png");
+    background-repeat: no-repeat;
+    position: relative;
+
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    color: #ffffff;
+
+    background-size: 100% 100%;
+  }
+  .btn_png:hover {
+    background-image: url("/laptop_theme/button_low_theme.png");
+  }
+  .btn_png p {
+    color: #ffffff;
+    position: absolute;
+    top: 8px;
+
+    width: 100%;
+    text-align: center;
+  }
+
+  .desktop_footer_right_icon {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    bottom: 50px;
+  }
+  .footer_png {
+    margin-right: 18px;
+    margin-left: 20px;
+  }
+}
+@media screen and ((min-width: 600px)and (max-width:852px)) {
+  .Home_Page_container {
+    background-image: url("/laptop_theme/Responsive_theme/bg_tablet_view-1.png");
+
+    background-size: 100% 100%;
+  }
+  .header_logo {
+    height: 55px;
+    width: 155px;
+  }
+  .scarab_with_light_1 {
+    position: absolute;
+
+    top: 3%;
+    left: 3%;
+    width: 98%;
+    height: 60%;
+  }
+  .panel_container {
+    top: 50%;
+    left: 10%;
+
+    width: 80%;
+  }
+}
